@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+  </head>
+  <body>
+    <div>
+        <fieldset class="contorno">
+            <legend>Datos Generales</legend>
+            <form>
+                <p>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" class="nombre" placeholder="Pon tu nombre aqui" required>
+                </p>
+                <p>
+                    <label for="Apaterno">Apellido Paterno: </label>
+                    <input type="text" id="Apaterno" class="Apaterno" placeholder="Pon tu A paterno aqui" required>
+                </p>
+                <p>
+                    <label for="Amaterno">Apellido Materno: </label>
+                    <input type="text" id="Amaterno" class="Amaterno" placeholder="Pon tu A materno aqui" required>
+                </p>
+                <p>
+                    <label for="dia">Dia: </label>
+                    <select name="dia" id="dia" class="dia" required></select>
+                    <label for="mes">Mes: </label>
+                    <select name="mes" id="mes" class="mes" required></select>
+                    <label for="anio">Año: </label>
+                    <select name="anio" id="anio" class="anio" required></select>
+                </p>
+                <button type="submit" class="ok">Ok</button>
+            </form>
+        </fieldset>
+    </div>
+    <div id="datos" class="datos"></div>
+  </body>
+</html>
+<script src="/assets/js/formulario1.js" defer></script>

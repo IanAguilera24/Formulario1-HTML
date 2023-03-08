@@ -1,0 +1,19 @@
+.contorno p{
+    text-align: center;
+    margin: auto;
+    padding: 0.6rem;
+}
+
+.contorno select{
+    margin: 1rem;
+}
+
+.contorno .ok{
+    margin: auto;
+    display: block;
+}
+
+.datos{
+    text-align: center;
+    padding: 1rem;
+}
